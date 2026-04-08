@@ -4,7 +4,7 @@ an AI Solutions Engineer based in Munich with a passion for building intelligent
 ### 💼 Career
 Currently, I’m part of the Solution Factory team of [Aleph Alpha](https://aleph-alpha.com/), contributing to sovereign AI built from the heart of Europe 🇪🇺🇩🇪
 
-Before that, I was working as an AI Engineer at one of the biggest streaming & entertainment players in the German-speaking region of Europe, developing and scaling a langgraph-based RAG agent for content discovery serving millions of users.
+Before that, I worked as an AI Engineer at one of the biggest streaming & entertainment players in the German-speaking region of Europe, developing and scaling a langgraph-based RAG agent for content discovery serving millions of users.
 
 ### 🤖 Techstack
 #### Frameworks
@@ -42,7 +42,9 @@ Before that, I was working as an AI Engineer at one of the biggest streaming & e
 </span>
 
 ### 🎓 Academia
-I have studied a combination of Quantitative Finance & Computer Science at the [Technical University of Munich](https://www.tum.de/en/). My master's thesis leveraged different Machine Learning models to forecast Corporate Earnings up to three years into the future, derive firms' implied cost of capital estimates from these forecasts, and finally formulate investment strategies that outperformed those based on financial analysts' earnings estimates.
+I studied a combination of Quantitative Finance & Computer Science at the [Technical University of Munich](https://www.tum.de/en/). 
+
+My master's thesis leveraged different traditional Machine & Deep Learning models to forecast Corporate Earnings up to three years into the future, derive firms' implied cost of capital estimates from these forecasts, and finally formulate investment strategies that outperformed those based on financial analysts' earnings estimates.
 
 ### 📞 Socials
 Find me on [LinkedIn](https://www.linkedin.com/in/niklasbaier/) and on my [Dev Blog](https://niklastypes.xyz/).
