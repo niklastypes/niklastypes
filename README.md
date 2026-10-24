@@ -1,57 +1,50 @@
-# ⌨️ Dev Blog
+### 👋 Hi, I'm Niklas,
+an AI Solutions Engineer based in Munich with a passion for building intelligent systems end-to-end and at scale.
 
-Static personal website using [Hugo](https://gohugo.io/) and the [Blowfish](https://github.com/nunocoracao/blowfish) theme.
-Deployed via GitHub pages to my custom domain https://niklastypes.xyz.
+### 💼 Career
+Currently, I’m part of the Solution Factory team of [Aleph Alpha](https://aleph-alpha.com/), contributing to sovereign AI built from the heart of Europe 🇪🇺🇩🇪
 
-## Requirements
+Before that, I worked as an AI Engineer at one of the biggest streaming & entertainment players in the German-speaking region of Europe, developing and scaling a langgraph-based RAG agent for content discovery serving millions of users.
 
-To run the web server:
-```bash
-brew install hugo
-```
+### 🤖 Techstack
+#### Frameworks
+<span>
+  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/fastapi-109989?logo=FASTAPI&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Pydantic-E92063?logo=Pydantic&logoColor=white&style=flat"/>
+  <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat"/>
+  <img src="https://img.shields.io/badge/Pytest-fff?logo=pytest&logoColor=000&style=flat"/>
+</span>
 
-## Setup
+#### Infrastructure
+<span>
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?logo=gitlab&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white&style=flat"/>
+  <img src="https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg?logo=aws&logoColor=white&style=flat"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white&style=flat"/>
+</span>
 
-As this project is using Blowfish as a git submodule, run the following once:
+#### Data Science
+<span>
+  <img src="https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/MLflow-F4AA41?logo=MLflow&logoColor=black&style=flat"/>
+  <img src="https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white&style=flat"/>
+</span>
 
-```bash
-git submodule update --init --recursive
-```
+#### Tools
+<span>
+  <img src="https://custom-icon-badges.demolab.com/badge/Ghostty-0000ff?logo=ghostty_term&logoColor=white&style=flat"/> 
+  <img src="https://img.shields.io/badge/Zed-white?logo=zedindustries&logoColor=084CCF&style=flat"/> 
+  <img src="https://img.shields.io/badge/-Obsidian-7C3AED?logo=obsidian&logoColor=white&style=flat&style=flat"/>
+</span>
 
-Then, start up the web server locally via
+### 🎓 Academia
+I studied a combination of Quantitative Finance & Computer Science at the [Technical University of Munich](https://www.tum.de/en/). 
 
-```bash
-hugo server
-```
+My master's thesis leveraged different traditional Machine & Deep Learning models to forecast Corporate Earnings up to three years into the future, derive firms' implied cost of capital estimates from these forecasts, and finally formulate investment strategies that outperformed those based on financial analysts' earnings estimates.
 
-and view on http://localhost:1313/.
-
-## Color scheme
-
-The Blowfish theme has been customized to follow the [Congo](https://github.com/jpanther/Congo) theme color scheme.
-The respective `img/backgrounds/*.svg` assets have been adapted as follows:
-
-```
-#5e6fa3 -> #6d40d9
-#689cc5 -> #b99af4
-#93dbe9 -> #e2d4ff
-```
-
-The respective `img/featured/*.svg` assets have been adapted as well:
-
-```
-#48cae4 → #6d40d9
-#03045e -> #5a2fc7
-#023e8a -> #6d40d9
-#0077b6 -> #8b5de8
-#0096c7 -> #b99af4
-#00b4d8 -> #b99af4
-#90e0ef -> #d1b9f8
-#ade8f4 -> #e2d4ff
-#caf0f8 -> #f0e8ff
-```
-
-## Comments
-
-Article comments are powered by [Giscus](https://giscus.app/), which uses GitHub Discussions (of the [`dev-blog-comments repo`](https://github.com/niklastypes/dev-blog-comments)) as the backend.
-Comments are enabled globally via `article.showComments` in `config/_default/params.toml`, and the Giscus widget is configured in `layouts/partials/comments.html`.
+### 📞 Socials
+Find me on [LinkedIn](https://www.linkedin.com/in/niklasbaier/) and on my [Dev Blog](https://niklastypes.xyz/).
