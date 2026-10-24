@@ -7,6 +7,6 @@
 {{- with findRE `(?s)^.*?<!-- about:end -->` $md 1 -}}{{- $md = index . 0 -}}{{- end -}}
 {{- $md = replaceRE `(?m)^### ` "## " $md -}}
 {{- /* Badge groups are <span>s on GitHub; on the site they use the .badge-row flex layout. */ -}}
-{{- $md = replaceRE `(?m)^\s*<span>\s*$` `<div class="badge-row">` $md -}}
-{{- $md = replaceRE `(?m)^\s*</span>\s*$` `</div>` $md -}}
+{{- $md = replaceRE `(?m)^[ \t]*<span>[ \t]*$` `<div class="badge-row">` $md -}}
+{{- $md = replaceRE `(?m)^[ \t]*</span>[ \t]*$` `</div>` $md -}}
 {{- $md | $.Page.RenderString -}}
