@@ -6,6 +6,8 @@
 {{- $md := readFile "README.md" -}}
 {{- with findRE `(?s)^.*?<!-- about:end -->` $md 1 -}}{{- $md = index . 0 -}}{{- end -}}
 {{- $md = replaceRE `(?m)^### ` "## " $md -}}
+{{- /* README sub-headings (####) become bold labels on the site, keeping the TOC to the main sections. */ -}}
+{{- $md = replaceRE `(?m)^#### (.+)$` "**$1**" $md -}}
 {{- /* Badge groups are <span>s on GitHub; on the site they use the .badge-row flex layout. */ -}}
 {{- $md = replaceRE `(?m)^[ \t]*<span>[ \t]*$` `<div class="badge-row">` $md -}}
 {{- $md = replaceRE `(?m)^[ \t]*</span>[ \t]*$` `</div>` $md -}}
