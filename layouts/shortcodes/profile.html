@@ -1,0 +1,9 @@
+{{- /*
+  Renders the repo's README.md (the GitHub profile card) so the About page
+  stays in sync with it. Everything after `<!-- about:end -->` is GitHub-only.
+  README headings are h3 for GitHub; shift them to h2 to match the page.
+*/ -}}
+{{- $md := readFile "README.md" -}}
+{{- with findRE `(?s)^.*?<!-- about:end -->` $md 1 -}}{{- $md = index . 0 -}}{{- end -}}
+{{- $md = replaceRE `(?m)^### ` "## " $md -}}
+{{- $md | $.Page.RenderString -}}

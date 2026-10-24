@@ -57,3 +57,7 @@ The respective `img/featured/*.svg` assets have been adapted as well:
 
 Article comments are powered by [Giscus](https://giscus.app/), which uses this repo's GitHub Discussions as the backend.
 Comments are enabled globally via `article.showComments` in `config/_default/params.toml`, and the Giscus widget is configured in `layouts/partials/comments.html`.
+
+## About page
+
+The About page (`content/about.md`) renders this repo's root `README.md`, the GitHub profile card, through the `profile` shortcode (`layouts/shortcodes/profile.html`). Editing the README updates both GitHub and the site on the next deploy. Anything after the `<!-- about:end -->` marker in the README stays GitHub-only; site-only sections live below the shortcode in `about.md`. `hugo server` doesn't watch the README, so restart it to see local README edits.

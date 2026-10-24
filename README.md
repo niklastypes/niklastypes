@@ -46,5 +46,6 @@ I studied a combination of Quantitative Finance & Computer Science at the [Techn
 
 My master's thesis leveraged different traditional Machine & Deep Learning models to forecast Corporate Earnings up to three years into the future, derive firms' implied cost of capital estimates from these forecasts, and finally formulate investment strategies that outperformed those based on financial analysts' earnings estimates.
 
+<!-- about:end -->
 ### 📞 Socials
 Find me on [LinkedIn](https://www.linkedin.com/in/niklasbaier/) and on my [Dev Blog](https://niklastypes.xyz/).
