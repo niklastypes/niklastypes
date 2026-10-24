@@ -60,4 +60,4 @@ Comments are enabled globally via `article.showComments` in `config/_default/par
 
 ## About page
 
-The About page (`content/about.md`) renders this repo's root `README.md`, the GitHub profile card, through the `profile` shortcode (`layouts/shortcodes/profile.html`). Editing the README updates both GitHub and the site on the next deploy. Anything after the `<!-- about:end -->` marker in the README stays GitHub-only; site-only sections live below the shortcode in `about.md`. `hugo server` doesn't watch the README, so restart it to see local README edits.
+The About page (`content/about.md`) renders this repo's root `README.md`, the GitHub profile card, through the `profile` shortcode (`layouts/shortcodes/profile.html`), called as `{{% profile %}}` so its headings show up in the table of contents. Editing the README updates both GitHub and the site on the next deploy. Anything after the `<!-- about:end -->` marker in the README stays GitHub-only; site-only sections live below the shortcode in `about.md`. `hugo server` doesn't watch the README, so restart it to see local README edits.

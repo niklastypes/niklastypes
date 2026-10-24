@@ -9,4 +9,5 @@
 {{- /* Badge groups are <span>s on GitHub; on the site they use the .badge-row flex layout. */ -}}
 {{- $md = replaceRE `(?m)^[ \t]*<span>[ \t]*$` `<div class="badge-row">` $md -}}
 {{- $md = replaceRE `(?m)^[ \t]*</span>[ \t]*$` `</div>` $md -}}
-{{- $md | $.Page.RenderString -}}
+{{- /* Called as {{% profile %}}: returns markdown so the headings join the page's TOC. */ -}}
+{{- $md | safeHTML -}}

@@ -9,7 +9,7 @@ authors:
 showAuthorsBadges : false
 ---
 
-{{< profile >}}
+{{% profile %}}
 
 ## 🚀 What fascinates me
 
