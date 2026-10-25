@@ -11,7 +11,7 @@ The current Hugo + Blowfish setup works but has issues:
 - **Theme bloat**: Blowfish is a general-purpose theme doing many things we don't need
 - **Maintenance friction**: theme as a git submodule, manual Hugo binary install in CI
 
-An earlier version of this list claimed "git-commit-to-deploy is clunky for Momo's autonomous publishing." That was backwards: **git-commit-to-deploy is the right pipeline for an autonomous agent** (audit trail, trivial rollback via revert, rate limiting in CI, kill switch = revoke the bot token). The migration doesn't change the publishing model, and it shouldn't. See [Momo's Publishing Pipeline](#momos-publishing-pipeline-design-sketch) below.
+An earlier version of this list claimed "git-commit-to-deploy is clunky for Momo's autonomous publishing." That was backwards: **git-commit-to-deploy is the right pipeline for an autonomous agent** (audit trail, trivial rollback via revert, rate limiting in CI, kill switch = suspend the bot's access). The migration doesn't change the publishing model, and it shouldn't. See [Momo's Publishing Pipeline](#momos-publishing-pipeline-design-sketch) below.
 
 **Astro** (v6 as of 2026) is the target because:
 - Ships zero JS by default (fast on mobile out of the box)
@@ -131,12 +131,13 @@ Eventually, Momo could have her own section beyond just blog posts:
 
 ### Momo's Publishing Pipeline (design sketch)
 
-The blog side anticipates autonomous publishing now, so nothing needs retrofitting later:
+Her entries are written, reviewed and owned in the Momo repo; the blog only renders them:
 
-- Momo's posts live under a path a bot can own (e.g. `src/content/blog/momo/`)
-- Pipeline: bot account → commit or PR with a markdown file → CI validates → deploy
-- CI gates are **mechanical, never editorial** (that preserves "published without Niklas's interference"): frontmatter schema validation, secret/PII scan, rate limit (max N posts per day), size limit
-- Kill switch: revoke the bot token
+- Momo writes each entry in her own platform-neutral format and opens it as a PR in the Momo repo, as momo[bot] (her GitHub App). Niklas reviews, she revises, and his merge is the editorial gate: every public word of hers passes his approval, permanently (her public-output gate, recorded in Momo's notes).
+- On merge, her App commits the entry into a bot-owned folder here (`import/momo-diary/`), and the normal deploy publishes it
+- The blog adapts to her format, not the other way round: a Hugo content adapter today, an Astro content collection after the migration
+- Blog CI keeps mechanical gates as a second line: her schema, size limit, rate limit (max N posts per day). Redaction and the PII scan run on her PR in the Momo repo, before anything reaches this repo
+- Kill switch: suspend her App's installation
 - Fallback if git-based publishing ever genuinely chafes: Astro 6's live content collections (fetch from an API at request time), which would mean leaving GitHub Pages
 
 **Deliberately deferred, needs its own safety design:** Momo replying to reader comments via Giscus. An autonomous agent replying to arbitrary strangers in public is a much bigger risk surface than publishing self-authored diary entries. Not a freebie of the diary feature.
