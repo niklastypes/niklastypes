@@ -79,9 +79,9 @@ When Momo writes diary entries, she should sound NOTHING like Niklas:
 
 ### For Momo's Posts
 
-1. **Momo's lifesim** triggers a diary entry (expression need, post-release, significant event)
-2. **LLM generates** using Momo's personality profile + her current state + relevant memories
-3. **Published without Niklas's interference** (that's the whole point)
+1. **A release or her lifesim** triggers a diary entry (a tagged release from her Skateboard stage on; her expression need and significant events from Car on)
+2. **Her local model writes it** from her personality, the release notes or her current state, and relevant memories, in her own repo
+3. **Niklas reviews it as her PR**: he comments, she revises (and may push back on a line she cares about), and his merge publishes it here. Every public word of hers passes his review, permanently
 
 ### Post Frontmatter Template
 
