@@ -10,6 +10,13 @@
 - [ ] About page live (bio + hobby badges minimum)
 - [ ] 404 page, canonical URLs, sitemap
 
+## Momo's Diary (independent of the migration)
+
+Momo's diary entries arrive from the Momo repo: she writes each one in her own platform-neutral format (Markdown plus frontmatter she defines and versions), it's reviewed and merged as her PR there, and her GitHub App (momo[bot]) commits it into `import/momo-diary/` here. Her first entries come at her Skateboard stage, on whatever the site is then.
+
+- Slice: importer on Hugo: a content adapter renders `import/momo-diary/` as posts under her existing author entry, with CI validating her format (schema, size and rate limits)
+- Slice: the same folder as an Astro content collection; part of the parity checklist once she has published
+
 ## Earliest Testable
 
 ### Bus Ticket (Astro scaffold)
@@ -55,7 +62,6 @@ Dark mode only (no theme toggle until light tokens exist), the custom theme, and
 
 ## Beyond
 
-- **Momo's publishing pipeline:** bot account commits markdown (optionally via PR); CI enforces mechanical gates only (schema lint, secret/PII scan, rate limit, size limit); kill switch = revoke the token. Editorial gates stay out by design. Sketch in [brainstorm.md](./brainstorm.md#momos-publishing-pipeline-design-sketch).
 - **Momo replying to Giscus comments:** deliberately parked behind its own safety design; autonomous public replies are a much bigger risk surface than publishing diary entries
 - Snowglobe widget embed showing Momo's current state
 - Search via Pagefind (if content grows enough to need it)
