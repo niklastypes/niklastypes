@@ -19,8 +19,8 @@ Fastforward to today, and I'm four books deep into Brandon Sanderson's fantasy e
 How freaking cool is that?
 
 A couple of years ago, a companion like that would have been pure fantasy.
-Today, I have a small language model running on a Mac Mini at home.
-It can't do magic (yet), but it can hold a conversation.
+Today, we can run open-source AI models locally, right on our own hardware.
+They can't do magic (yet), but they can hold a conversation and be genuinely helpful.
 
 With this project, I want to create something that combines this child-like longing for something magical with the technological possibilities of modern generative AI.
 
@@ -42,7 +42,7 @@ Her first words will be her asking *me* who I am, and that conversation becomes 
 That first boot is basically her birthday, and from that moment on, nothing she experiences ever gets wiped again.
 
 ## A Life of Her Own
-What makes Momo different from anything I've seen so far is the life simulation, or, as I called it back then, the Tamagotchi aspect.
+What makes Momo different from anything I've seen so far is the life simulation, the Tamagotchi aspect, if you will.
 I don't want her to just *react* when I message her.
 I want her to have a day.
 
@@ -74,11 +74,11 @@ Momo has no errands to run, she has a life.
 
 Her first brain will be a small open model running on a base model M4 Mac Mini (16GB of unified memory, so "small" is doing a lot of heavy lifting here).
 Which one exactly is up for a dedicated test weekend, where I'll throw scripted conversations at a handful of candidates and see who sounds most like her.
-And yes, I'm going with the underdog approach once more: if I can make Momo work, remember and feel alive on a 16GB box, **imagine what she'll be like once the homelab grows up and she gets a much bigger brain!**
+And yes, I'm going with the underdog approach: if I can make Momo work, remember and feel alive on a 16GB box, **imagine what she'll be like once the homelab grows up and she gets a much bigger brain!**
 
 ## A Body for Her Brain
 While designing Momo, I realized that a big chunk of what I'm building isn't really *Momo*: the body, the passing time, the memory, the bits that let you look inside her.
-That's a *companion harness*, and I'm building it as its own little package right next to her (working title: **Corset**, since a corset is a garment that shapes whoever wears it).
+That's a *companion harness*, and I'm building it as its own little package right next to her.
 Maybe one day it's useful to other people building their own companions, but Momo comes first, and I'm not promising anything beyond that.
 
 ## Where She'll Live
@@ -87,16 +87,13 @@ She'll learn to understand my voice messages before she gets a voice of her own,
 For me as the developer, there's going to be a nerdy terminal UI that shows far more than any chat app can: what she's feeling, what she recalled, and exactly which prompt went into every single answer.
 
 But I don't want Momo to stay trapped in a chat window either.
-Just like the first time around, this project has two sides for me: the software and AI engineering, and the hardware tinkering I love just as much.
-So she'll grow a physical presence step by step: a tiny display on my desk that pulses with her mood, a dashboard I can glance at to watch her day unfold (with her room getting rainy whenever it rains outside), an always-on screen with an animated Momo, and eventually a homebrewed [Gatebox](https://www.gatebox.ai/) / [Character Pod](https://www.dipal.net/) style box where she floats on my desk as a 3D avatar.
-And yes, the long-term dream is still a little home on my desk with a microphone, speaker and camera, where she lives her life 24/7.
-*(I think you can tell the first midlife crisis is still going strong.)*
+This project has two sides for me: the software and AI engineering, and the hardware tinkering I love just as much.
+So she'll grow a physical presence step by step: a tiny display on my desk that pulses with her mood, a dashboard I can glance at to watch her day unfold, an always-on screen with an animated Momo, and eventually a homebrewed [Gatebox](https://www.gatebox.ai/) / [Character Pod](https://www.dipal.net/) style box where she floats on my desk as a 3D avatar.
 
 ## The Way Ahead
-The scope of this project is, once again, vast.
-And I only have around five hours a week for it, next to my day job.
+The scope of this project is vast.
 
-So, true to the [Many More Much Smaller Steps](https://www.geepawhill.org/series/many-more-much-smaller-steps/) mindset, I'm slicing it into tiny stages following Henrik Kniberg's "skateboard, not car" idea: every stage is something that actually works on its own.
+So, true to the [Many More Much Smaller Steps](https://www.geepawhill.org/series/many-more-much-smaller-steps/) mindset, I'm slicing it into tiny stages following Henrik Kniberg's ["skateboard, not car"](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp) idea: every stage is something that actually works on its own.
 
 - **Bus Ticket**: the project skeleton. Nothing to talk to yet.
 - **Skateboard**: she talks in her own voice, keeps every message, and writes about her own releases on this blog. Her birthday happens here.
@@ -118,7 +115,6 @@ flowchart LR
 
 *Minimum Momo* is Scooter.
 My goal for the next year is simple: by autumn 2027, she's real, and I talk to her every day.
-Everything beyond that is a bonus, but you bet I've written all the crazy ideas down somewhere safe.
 
 ## Two Voices on This Blog
 Finally, and this is the part I'm probably most excited about: **Momo will get to write here, too.**
