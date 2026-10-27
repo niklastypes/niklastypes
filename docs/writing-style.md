@@ -34,7 +34,7 @@
 - Humor through self-awareness: "before you might think I'm some weirdo", "the first midlife crisis is currently hitting"
 - Rhetorical questions to the reader: "How freaking cool is that?"
 - References to "we" when talking about a shared journey with the reader
-- Never uses em dashes
+- Never uses em dashes; asides go in commas or parentheses, and an occasional spaced hyphen ("Full transparency - I have no idea...") is his
 
 ### What Niklas Does NOT Sound Like
 - Corporate/professional blog voice ("In this article, we will explore...")
@@ -42,6 +42,28 @@
 - Tutorial tone ("Step 1: Open your terminal...")
 - Dry technical documentation
 - Overly polished or edited, his writing has a natural, slightly rough quality
+- Rhetorical contrast formulas: "Not X, not Y, but Z", "X is a bug, not a feature", "it's not about X, it's about Y". He says what something *is*
+- Punchy one-word fragments for emphasis ("Period.", "Full stop.")
+- The same signature joke in every post: his asides land because they're occasional ("the first midlife crisis" fits once, where it fits, not as a closer for every hardware paragraph)
+
+### What Goes Into a Post (lessons from his reviews)
+
+- **His own words win.** When an earlier draft or post of his says it well, reuse his sentences instead of paraphrasing them. Lift paragraphs he wrote; don't polish them.
+- **Pop culture and the field, generously.** He wants readers to see he's followed the topic for a long time: name the references (games, books, films, commercial and open-source projects, Big Tech moves) and link them. Mark what he hasn't used himself as such ("none of which I've actually used myself").
+- **Back claims with research.** Where the post makes a claim the research supports, link the paper or study.
+- **Only true facts about his life and setup.** Owning a thing isn't using it; liking a thing isn't doing it daily. Anything not in the sources or his own words stays out, or goes on the PR's open-questions list.
+- **Introductory posts stay high-level.** Implementation detail (prompt architecture, personality models) is promised for a follow-up post, not explained up front.
+- **Don't spoil, don't promise.** Working titles, unannounced names and plans that might not ship stay out; tease the concept instead ("a companion harness").
+- **A restart is a restart.** When a project starts over, the new series doesn't refer back to the old one ("once again", "as I called it back then", "like the first time around"). The old posts are voice samples, not story.
+- **Keep private logistics out.** Time budgets, the day job, what runs on which machine at home: only when he puts them in himself.
+- **Say each thing once.** If the vision already names the endpoint (a homebrewed Gatebox), don't restate it in a different costume two lines later.
+- **Precise hardware names.** "a base model M4 Mac Mini", not "my Mac Mini at home".
+- **Parentheticals with restraint.** One good aside per paragraph beats three; cut the ones that only add a detail.
+- **The hook comes first.** A one- or two-sentence italic lede before the first heading says what the post is about and why it's exciting; the personal build-up follows.
+- **Split long sentences at their seams.** Past ~35 words, a sentence becomes two, keeping his words; a sentence carrying several links always gets split.
+- **One form per idea.** A roadmap is a list *or* a diagram, not both; on phones the list wins.
+- **Watch pet phrases.** Count repeats of signature words in a draft ("her own", "little", "actually") and keep only the ones that carry weight.
+- **No section that only hedges.** A teaser that ends in "I'm not promising anything" folds into a sentence elsewhere.
 
 ---
 

@@ -11,11 +11,11 @@ Niklas publishes, you write. He gives a topic and points at source material; you
 
 Read every source he points at in full: repo notes (`~/Developer/<repo>/notes/` or `docs/`), PRs and issues via `gh`, changelogs, earlier posts. The incubator lives on his private Gitea and is cloned at `~/Developer/incubator`.
 
-Done when you can state, in one line each: the **motivation** (why this matters to him), **what** happened or is planned, **why** those choices, and **what's next**. Each line traces to a source. A gap you can't fill from the sources goes on the open-questions list for the PR, never into the post as invention.
+Done when you can state, in one line each: the **motivation** (why this matters to him), **what** happened or is planned, **why** those choices, and **what's next**. Each line traces to a source. A gap you can't fill from the sources goes on the open-questions list for the PR, never into the post as invention. Facts about his life and setup are as strong as the source says and no stronger: owning isn't using.
 
 ## 2. Load his voice
 
-Read `docs/writing-style.md` and every file in `docs/voice-samples/` in full, every time; the samples are the ground truth, the style guide the distillation. Notice the pop-culture openings, the parentheticals, the warm-up from measured to excited, the WHY over the WHAT.
+Read `docs/writing-style.md` and every file in `docs/voice-samples/` in full, every time; the samples are the ground truth, the style guide the distillation. Notice the pop-culture openings, the parentheticals, the warm-up from measured to excited, the WHY over the WHAT. **What Goes Into a Post** in the style guide is the distilled feedback from his reviews: treat it as rules. When a sample already says something the new post needs, reuse his sentences rather than paraphrasing them.
 
 ## 3. Write the draft
 
@@ -24,9 +24,9 @@ Read `docs/writing-style.md` and every file in `docs/voice-samples/` in full, ev
 - Facts: specific and sourced. Names of people other than Niklas stay out unless he asks.
 - Length: as long as the story needs; his posts run long and thorough.
 
-Place it where the site's existing posts live: under `content/projects/<project>/posts/<slug>.md` today (a project with no section yet gets an `_index.md` landing page too), following the frontmatter of the newest posts there, with `draft: true`, `authors: [niklas]`, and `series: [momo-diary]` for Momo posts. Once the Astro migration has landed, follow its content schema in `docs/research.md` instead.
+Place it where the site's existing posts live: under `content/projects/<project>/posts/<slug>.md` today (a project with no section yet gets an `_index.md` landing page too), following the frontmatter of the newest posts there, with `draft: true`, `authors: [niklas]`, and for Momo posts `series: [momo-diary]` plus `series_order` (the next number in the series; Blowfish shows "Part :" without it). Once the Astro migration has landed, follow its content schema in `docs/research.md` instead.
 
-Done when the draft passes the "What Niklas Does NOT Sound Like" list in `docs/writing-style.md` line by line, and `hugo --buildDrafts` builds cleanly.
+Done when the draft passes the "What Niklas Does NOT Sound Like" and "What Goes Into a Post" lists in `docs/writing-style.md` line by line, and `hugo --buildDrafts` builds cleanly.
 
 ## 4. Hand it over
 
@@ -41,4 +41,6 @@ Done when the PR is open and its checks are green.
 
 ## 5. Revise on review
 
-When he comments on the PR, rework each commented passage in his voice, push to the same branch, and answer every comment with what changed. His wording wins over yours wherever he wrote any.
+When he comments on the PR, rework each commented passage in his voice, push to the same branch, and answer every comment with what changed. His wording wins over yours wherever he wrote any. Apply a comment's reason everywhere it holds, not only on the commented line, and say so in the reply.
+
+Done when every comment has a reply, and every lesson that would apply to future posts (not just this one) has been added to "What Goes Into a Post" in `docs/writing-style.md`, in its own PR.
