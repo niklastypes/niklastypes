@@ -5,6 +5,7 @@ draft: false
 description: "Why I'm building Momo, a local-first AI companion with moods, memories and a life that keeps going when nobody's talking to her."
 tags: [momo]
 series: [momo-diary]
+series_order: 1
 authors:
   - niklas
 ---
