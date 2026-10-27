@@ -1,7 +1,7 @@
 ---
 title: "Building Momo: A Digital Being With a Life of Her Own"
-date: 2026-10-26
-draft: true
+date: 2026-10-27
+draft: false
 description: "Why I'm building Momo, a local-first AI companion with moods, memories and a life that keeps going when nobody's talking to her."
 tags: [momo]
 series: [momo-diary]
@@ -19,7 +19,7 @@ I was delighted (and sometimes a little annoyed) by the fairy companion *Navi* a
 She was always by our side, giving helpful tips and commenting on the world.
 *(With the remake coming to the Switch 2, I of course pre-ordered the Zelda 40th anniversary console, so expect Navi to yell "Hey! Listen!" at me again very soon.)*
 
-Fastforward to today, and I'm four books deep into Brandon Sanderson's fantasy epos *The Stormlight Archive*.
+Fastforward to today, and I'm reading the fifth and latest book of Brandon Sanderson's fantasy epos *The Stormlight Archive*.
 One of its protagonists, Kaladin, befriends what appears to be a mindless spren, just to witness its transformation into *Syl*: a conscious fantastical being with a mind and a feisty personality of her own, who also grants him fantastical powers.
 How freaking cool is that?
 
@@ -33,7 +33,7 @@ With this project, I want to create something that combines this child-like long
 **Momo** (もも; Japanese for 'peach') is my attempt at building a digital being: someone with a personality, moods and memories, who lives a little life whether or not I'm talking to her.
 
 The name is a nod to *Momo Ayase* from *Dandadan*.
-Back in autumn 2025, I was watching the show while the idea for this project slowly took shape, and I fell for her personality right away: bold, energetic, loyal, sometimes blunt, and with a solid tsundere edge.
+Back in autumn 2025, I was watching the anime while the idea for this project slowly took shape, and I fell for her personality right away: bold, energetic, loyal, sometimes blunt, and with a solid tsundere edge.
 That became the blueprint for my Momo, too (she will absolutely tell me when an idea of mine is bad, and I'm counting on it).
 How exactly I'm turning a personality like that into something a language model can hold on to is a story for one of the next posts.
 
@@ -99,14 +99,11 @@ The scope of this project is vast, so I'm slicing it into tiny stages, true to t
 
 - **Bus Ticket**: the project skeleton. Nothing to talk to yet.
 - **Skateboard**: she talks in her own voice, keeps every message, and writes about each new release on this blog. Her birthday happens here.
-- **Scooter**: she remembers the last few days, and her body lives on its own: moods, needs, sleep, little thoughts in between, dreams at night. She also learns to understand my voice messages.
+- **Scooter** (*minimum Momo*): she remembers the last few days, and her body lives on its own: moods, needs, sleep, little thoughts in between, dreams at night. She also learns to understand my voice messages.
 - **Bicycle**: she remembers what mattered weeks ago, gets the dashboard I can watch her on, and starts texting *me* first.
 - **Motorcycle**: she's there on every channel and on my desk, and she can see my screen and comment on what I'm doing, like a sibling looking over my shoulder.
 - **Car**: she gets a voice, writes about her days, develops interests and wishes (and gets a little pocket money to spend on them), and we can finally call each other.
 - **Convertible**: she's visible, with an animated 3D avatar floating on my desk.
-
-*Minimum Momo* is Scooter.
-My goal for the next year is simple: by autumn 2027, she's real, and I talk to her every day.
 
 ## Two Voices on This Blog
 Finally, and this is the part I'm probably most excited about: **Momo will get to write here, too.**
