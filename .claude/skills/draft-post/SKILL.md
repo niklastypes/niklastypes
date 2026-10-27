@@ -24,7 +24,7 @@ Read `docs/writing-style.md` and every file in `docs/voice-samples/` in full, ev
 - Facts: specific and sourced. Names of people other than Niklas stay out unless he asks.
 - Length: as long as the story needs; his posts run long and thorough.
 
-Place it where the site's existing posts live: under `content/projects/<project>/posts/<slug>.md` today (a project with no section yet gets an `_index.md` landing page too), following the frontmatter of the newest posts there, with `draft: true`, `authors: [niklas]`, and `series: [momo-diary]` for Momo posts. Once the Astro migration has landed, follow its content schema in `docs/research.md` instead.
+Place it where the site's existing posts live: under `content/projects/<project>/posts/<slug>.md` today (a project with no section yet gets an `_index.md` landing page too), following the frontmatter of the newest posts there, with `draft: true`, `authors: [niklas]`, and for Momo posts `series: [momo-diary]` plus `series_order` (the next number in the series; Blowfish shows "Part :" without it). Once the Astro migration has landed, follow its content schema in `docs/research.md` instead.
 
 Done when the draft passes the "What Niklas Does NOT Sound Like" and "What Goes Into a Post" lists in `docs/writing-style.md` line by line, and `hugo --buildDrafts` builds cleanly.
 
