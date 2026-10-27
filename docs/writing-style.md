@@ -59,6 +59,11 @@
 - **Say each thing once.** If the vision already names the endpoint (a homebrewed Gatebox), don't restate it in a different costume two lines later.
 - **Precise hardware names.** "a base model M4 Mac Mini", not "my Mac Mini at home".
 - **Parentheticals with restraint.** One good aside per paragraph beats three; cut the ones that only add a detail.
+- **The hook comes first.** A one- or two-sentence italic lede before the first heading says what the post is about and why it's exciting; the personal build-up follows.
+- **Split long sentences at their seams.** Past ~35 words, a sentence becomes two, keeping his words; a sentence carrying several links always gets split.
+- **One form per idea.** A roadmap is a list *or* a diagram, not both; on phones the list wins.
+- **Watch pet phrases.** Count repeats of signature words in a draft ("her own", "little", "actually") and keep only the ones that carry weight.
+- **No section that only hedges.** A teaser that ends in "I'm not promising anything" folds into a sentence elsewhere.
 
 ---
 
