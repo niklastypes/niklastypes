@@ -155,19 +155,20 @@ So "writing Momo" means deciding what goes into that text, in which order, every
 
 Here's what her context looks like:
 
-```text
-system prompt
-  who she is         ┐ the same for everyone,
-  what drives her    │ byte for byte, so it
-  how she acts       │ stays cached
-  how she talks      ┘
-  what she is to the person talking
-  core memories, instructions
-seven example chats (as earlier turns)
-our conversation (every turn timestamped)
-the reminder (time + drift-prone rules)
-my new message
-```
+{{< mermaid >}}
+flowchart TB
+  subgraph sys["System prompt"]
+    core["Who she is · what drives her<br/>how she acts · how she talks<br/><i>the same for everyone, cached</i>"]
+    rel["What she is to the person talking"]
+    mem["Core memories · instructions"]
+    core --> rel --> mem
+  end
+  ex["Seven example chats<br/><i>as earlier turns</i>"]
+  conv["Our conversation<br/><i>every turn timestamped</i>"]
+  rem["The reminder<br/><i>time + drift-prone rules</i>"]
+  msg["My new message"]
+  sys --> ex --> conv --> rem --> msg
+{{< /mermaid >}}
 
 The order isn't random.
 A local inference server can reuse the work it already did for the beginning of the context, but only as long as that beginning doesn't change.
@@ -241,6 +242,9 @@ And if the judge keeps missing a trait, the fix is a new behavior line or a new 
 ### Versioned like code
 And one nerdy detail I'm weirdly proud of: every prompt file carries a semantic version, and a lock file pins each version to the file's exact content.
 Change a file without bumping its version, and a test fails.
+
+*[Screenshot placeholder: the terminal, with the prompt-version test failing on an edit to `behavior.j2` that didn't bump its version.]*
+
 When Capri's line went in, for example, the identity block went from 0.1.0 to 0.2.0.
 On top of that, the templates render strictly, so a missing variable breaks the build instead of quietly leaving a hole in her prompt.
 Everything is still 0.x, and the whole set goes to 1.0.0 once the final checks before her birth pass on her exact prompt and model.
@@ -302,6 +306,8 @@ Before a decision, Claude researches and then *grills* me, one round of question
 After a change, it runs a *roast*: a handful of fresh reviewer agents with no idea of our reasoning, each told to prove the project is set up wrong.
 Each one looks through a single lens: a skeptical product manager, an architect, a companion-AI ethicist, and so on.
 Claude then checks every finding against its evidence, and we go through whatever survives before anything changes.
+
+*[Screenshot placeholder: the judged roast report in Claude Code, with its Right / Partly right / Ignore verdicts (the absence-hunter run is ideal).]*
 
 The closeness gap exposed the blind spot: every lens critiqued what *was* written, and none of them hunted for what *wasn't*.
 The principle had been in her spec from the start, but I had planned by build order, and closeness simply never was "next".
