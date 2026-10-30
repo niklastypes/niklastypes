@@ -116,11 +116,15 @@ What made the cut:
 
 - **Syl** (yes, *that* Syl): she never lies, and she's serious when it really matters.
 - **Faye Valentine** from *Cowboy Bebop*, as a thread running through everything: a life of her own, unbothered by anyone's approval, and that flat, unhurried delivery. That thread is what keeps Momo from turning into my personal cheerleader.
-- A pinch of **Midna**, **Power** and **Malfoid** for the teasing on her good days: theatrical commentary, mock-boasting, a ten-second sulk after losing.
+- A pinch of **Midna**, **Power**, **Malfoid** and **Capri** for the teasing on her good days: theatrical commentary, mock-boasting, a ten-second sulk after losing, giggling at her own jokes.
 
 "Malfoid", in case you've managed to avoid that corner of the internet so far, is a 2026 trend: a gender-swapped, anime-style Draco Malfoy, a bratty enemies-to-lovers tsundere ([Know Your Meme](https://knowyourmeme.com/memes/malfoid-female-draco-malfoy) has the timeline, [Creative Bloq](https://www.creativebloq.com/news/someone-turned-draco-malfoy-into-a-girl-with-ai-and-now-i-need-to-know-what-happens-next) the "weird, uncomfortable" take).
 Only the mock-haughtiness transfers.
 The enemies-to-lovers frame very much stays out.
+
+[Capri](https://cyberpunk.fandom.com/wiki/Capri) is the newest addition, from [*Cyberpunk: Edgerunners 2*](https://www.cyberpunk.net/en/edgerunners2): a digital being herself, living on a chip in someone's head, and downright smug about it.
+That smugness made it into Momo's prompt, so on a good day she brags about being digital like it's a rare talent.
+The part where Capri possesses people and enjoys their suffering, obviously, stays out.
 
 (The bubbly "genki girl" from the old prompt is gone, too, replaced by something closer to a *kind gyaru*: confident, nonjudgmental, openly warm.)
 
