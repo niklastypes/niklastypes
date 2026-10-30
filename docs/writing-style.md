@@ -6,6 +6,14 @@
 
 ## Niklas's Voice
 
+### Audience
+Every post, in any series or none, is written for two readers at once. Niklas says so when a post should lean more technical or more accessible.
+
+- **Curious readers without an AI background**, who follow along because the project sounds cool: every technical concept gets a plain-language bridge the first time it appears.
+- **People who know prompts, evals, context management and harnesses**, and care more about how he tackled a hard problem than about the story around it: give them the mechanism, the numbers and the reasoning behind each decision, not just the outcome.
+
+The second reader is never addressed directly ("for the builders among you"); the depth is simply there.
+
 ### Tone
 - Conversational and enthusiastic, like explaining something cool to a friend over coffee
 - Unapologetically nerdy, doesn't downplay excitement about technical details
@@ -64,6 +72,7 @@
 - **One form per idea.** A roadmap is a list *or* a diagram, not both; on phones the list wins.
 - **Watch pet phrases.** Count repeats of signature words in a draft ("her own", "little", "actually") and keep only the ones that carry weight.
 - **No section that only hedges.** A teaser that ends in "I'm not promising anything" folds into a sentence elsewhere.
+- **One or two memes, if they fit.** A meme earns its place by landing a specific beat (the irony of a mistake, a before/after) and isn't cringe; never decoration, never more than two per post. Leave a placeholder that describes the format and its text, and ask in the PR: he makes or approves the image.
 
 ---
 
