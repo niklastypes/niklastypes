@@ -70,6 +70,8 @@ The second reader is never addressed directly ("for the builders among you"); th
 - **The hook comes first.** A one- or two-sentence italic lede before the first heading says what the post is about and why it's exciting; the personal build-up follows.
 - **Split long sentences at their seams.** Past ~35 words, a sentence becomes two, keeping his words; a sentence carrying several links always gets split.
 - **One form per idea.** A roadmap is a list *or* a diagram, not both; on phones the list wins.
+- **Show complex things.** He likes explaining visually: a mechanism with moving parts (a pipeline, how a prompt is assembled, a state machine) gets a Mermaid diagram (`{{< mermaid >}}`), kept small enough to read on a phone. A handful per post at most, and only where the picture explains more than the paragraph next to it; a sequence of steps stays a list.
+- **Suggest screenshots.** Where a real artifact would say more than prose or a diagram (a terminal session, a chat with the agent or with Momo, a trace, a UI, a failing test), leave a placeholder that says what to capture, and list it in the PR. He takes the screenshots.
 - **Watch pet phrases.** Count repeats of signature words in a draft ("her own", "little", "actually") and keep only the ones that carry weight.
 - **No section that only hedges.** A teaser that ends in "I'm not promising anything" folds into a sentence elsewhere.
 - **One or two memes, if they fit.** A meme earns its place by landing a specific beat (the irony of a mistake, a before/after) and isn't cringe; never decoration, never more than two per post. Leave a placeholder that describes the format and its text, and ask in the PR: he makes or approves the image.
