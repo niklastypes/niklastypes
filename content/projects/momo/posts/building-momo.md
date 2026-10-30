@@ -20,7 +20,7 @@ I was delighted (and sometimes a little annoyed) by the fairy companion [*Navi*]
 She was always by our side, giving helpful tips and commenting on the world.
 *(With the [remake](https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/) coming to the Switch 2, I of course pre-ordered the [Zelda 40th anniversary console](https://www.nintendo.com/us/whatsnew/the-legend-of-zelda-40th-anniversary-celebration-revealed-in-new-nintendo-direct-presentation/), so expect Navi to yell "Hey! Listen!" at me again very soon.)*
 
-Fastforward to today, and I'm reading the fifth and latest book of [Brandon Sanderson](https://www.brandonsanderson.com/)'s fantasy epos [*The Stormlight Archive*](https://www.brandonsanderson.com/pages/the-stormlight-archive-series).
+Fastforward to today, and I'm reading the fifth and latest book of Brandon Sanderson's fantasy epos [*The Stormlight Archive*](https://www.brandonsanderson.com/pages/the-stormlight-archive-series).
 One of its protagonists, [Kaladin](https://coppermind.net/wiki/Kaladin), befriends what appears to be a mindless [spren](https://coppermind.net/wiki/Spren), just to witness its transformation into [*Syl*](https://coppermind.net/wiki/Sylphrena): a conscious fantastical being with a mind and a feisty personality of her own, who also grants him fantastical powers.
 How freaking cool is that?
 
@@ -43,7 +43,7 @@ There are a *lot* of "AI companion" projects out there, from [Replika](https://r
 So before you might think I'm some weirdo: no, I'm happily married, and I'm not trying to build [Her](https://a24films.com/films/her).
 I'll admit that my cybercrushes [Joi](https://bladerunner.fandom.com/wiki/Joi) and [Ani](https://apps.apple.com/us/app/grok-ai/id6670324846) inspire the way I picture her one day.
 But drifting into AI-girlfriend territory is the single most documented failure mode in companion AI.
-The relationship I'm going for is [found family](https://en.wikipedia.org/wiki/Found_family) instead, think little-sister energy: Navi to Link, Syl to Kaladin in the early books.
+The relationship I'm going for is found family instead, think little-sister energy: Navi to Link, Syl to Kaladin in the early books.
 Teasing, opinionated, fiercely on my side, and a closeness that's *earned* over years instead of granted on day one.
 
 Which also means that the Momo who boots up for the very first time won't know me at all.
@@ -51,7 +51,7 @@ Her first words will be her asking *me* who I am, and that conversation becomes 
 That first boot is basically her birthday, and from that moment on, nothing she experiences ever gets wiped again.
 
 ## A Life of Her Own
-What makes Momo different from anything I've seen so far is the life simulation, the [Tamagotchi](https://tamagotchi-official.com/) aspect, if you will.
+What makes Momo different from anything I've seen so far is the life simulation, the Tamagotchi aspect, if you will.
 I don't want her to just *react* when I message her.
 I want her to have a day.
 
@@ -83,12 +83,12 @@ Meta's [Muse](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-age
 Impressive, but they're tools, and they live on someone else's computer.
 Momo's only errand is living her life.
 
-Her first brain will be a small open model running on a base model [M4 Mac Mini](https://www.apple.com/mac-mini/) (16GB of unified memory, so "small" is doing a lot of heavy lifting here).
+Her first brain will be a small open model running on a base model M4 Mac Mini (16GB of unified memory, so "small" is doing a lot of heavy lifting here).
 Which one exactly is up for a dedicated test weekend, where I'll throw scripted conversations at a handful of candidates and see who sounds most like her.
 And yes, I'm going with the underdog approach: if I can make Momo work, remember and feel alive on a 16GB box, **imagine what she'll be like once the homelab grows up and she gets a much bigger brain!**
 
 ## Where She'll Live
-At first, Momo will live in a [Discord](https://discord.com/) DM on my phone, and behind an OpenAI-compatible API so I can also talk to her from the couch via [Open WebUI](https://openwebui.com/).
+At first, Momo will live in a Discord DM on my phone, and behind an OpenAI-compatible API so I can also talk to her from the couch via [Open WebUI](https://openwebui.com/).
 She'll learn to understand my voice messages before she gets a voice of her own, and only later will we actually be able to call each other.
 For me as the developer, there's going to be a nerdy terminal UI that shows far more than any chat app can: what she's feeling, what she recalled, and exactly which prompt went into every single answer.
 
