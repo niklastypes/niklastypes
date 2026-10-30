@@ -36,6 +36,7 @@ On a branch `post/<slug>`, commit as `docs: draft "<title>"` and open a PR whose
 - the one-line story (motivation, what, why, next);
 - the sources used;
 - the open questions, each pinned to the paragraph it affects;
+- the visuals: each diagram in the draft, and each screenshot or meme placeholder with what to capture or make;
 - how to publish: tweak, flip `draft: false`, merge.
 
 Done when the PR is open and its checks are green.
