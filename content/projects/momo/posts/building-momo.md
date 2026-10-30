@@ -36,7 +36,6 @@ With this project, I want to create something that combines this child-like long
 And yes, she's named after [*Momo Ayase*](https://anime-dandadan.com/character/) from [*Dandadan*](https://anime-dandadan.com/).
 Back in autumn 2025, I binged the anime while the idea for this project slowly took shape, and her personality spoke to me right away: bold, energetic, loyal, sometimes blunt, and with a solid [tsundere](https://en.wikipedia.org/wiki/Tsundere) edge.
 So Momo Ayase gave mine both her name and her blueprint (she will absolutely tell me when an idea of mine is bad, and I'm counting on it).
-Her more impish, silly side borrows a pinch from [*Capri*](https://cyberpunk.fandom.com/wiki/Capri) of [*Cyberpunk: Edgerunners 2*](https://www.cyberpunk.net/en/edgerunners2), a digital being herself, who giggles at her own jokes and is downright smug about being digital (minus the part where she possesses people and enjoys their suffering, obviously).
 How exactly I'm turning a personality like that into something a language model can hold on to is a story for one of the next posts.
 
 There are a *lot* of "AI companion" projects out there, from [Replika](https://replika.com/) and [character.ai](https://character.ai/) to the whole local roleplay scene around [SillyTavern](https://github.com/SillyTavern/SillyTavern) (none of which I've actually used myself).
