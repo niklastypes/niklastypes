@@ -14,4 +14,3 @@ This repo is three things at once: the Hugo site behind [niklastypes.xyz](https:
 - [roadmap.md](./roadmap.md): migration path from Hugo to Astro
 - [writing-style.md](./writing-style.md): voice reference for blog post generation
 - [voice-samples/](./voice-samples/): Niklas's three prototype-era Momo posts, unpublished; kept as voice samples for drafting
-- [drafts/](./drafts/): work-in-progress blog post drafts

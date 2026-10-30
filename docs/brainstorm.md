@@ -176,5 +176,4 @@ Content collection schema defined in [research.md](./research.md#content-collect
 
 ## Open Decisions
 
-- **Incubator repo visibility.** The Mikoshi post draft links to the incubator repo as if it were public; it is currently PRIVATE (and uses the wrong username, `niklas-baier` instead of `niklastypes`). Either make Empyrean public (privacy review needed: nebulae, career notes, Mikoshi design details) or rewrite the draft to not link it. Decide before it ships.
 - **Momo replying to Giscus comments:** parked behind its own safety design (see the pipeline sketch above)
