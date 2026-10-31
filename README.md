@@ -2,7 +2,7 @@
 an AI Solutions Engineer based in Munich with a passion for building intelligent systems end-to-end and at scale.
 
 ### 💼 Career
-Currently, I’m part of the Solution Factory team of [Aleph Alpha](https://aleph-alpha.com/), contributing to sovereign AI built from the heart of Europe 🇪🇺🇩🇪
+Currently, I’m part of the Solution Factory team of [Aleph Alpha](https://aleph-alpha.com/), where I build agentic products and deploy them with our customers, contributing to sovereign AI built from the heart of Europe 🇪🇺🇩🇪
 
 Before that, I worked as an AI Engineer at one of the biggest streaming & entertainment players in the German-speaking region of Europe, developing and scaling a langgraph-based RAG agent for content discovery serving millions of users.
 
