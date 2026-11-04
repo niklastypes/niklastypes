@@ -62,10 +62,13 @@ The second reader is never addressed directly ("for the builders among you"); th
 - **Only true facts about his life and setup.** Owning a thing isn't using it; liking a thing isn't doing it daily. Anything not in the sources or his own words stays out, or goes on the PR's open-questions list.
 - **Introductory posts stay high-level.** Implementation detail (prompt architecture, personality models) is promised for a follow-up post, not explained up front.
 - **Don't spoil, don't promise.** Working titles, unannounced names and plans that might not ship stay out; tease the concept instead ("a companion harness").
-- **A restart is a restart.** When a project starts over, the new series doesn't refer back to the old one ("once again", "as I called it back then", "like the first time around"). The old posts are voice samples, not story.
-- **Keep private logistics out.** Time budgets, the day job, what runs on which machine at home: only when he puts them in himself.
+- **A restart is a restart.** When a project starts over, the new series doesn't refer back to the old one ("once again", "as I called it back then", "like the first time around"). The old posts are voice samples, not story. The same holds for unpublished drafts (never quote or mention them) and retired projects (a project that's gone isn't named, not even as "formerly X").
+- **Keep private logistics out.** Time budgets, the day job, what runs on which machine at home: only when and where he puts them in himself. A number he allows in one section doesn't spread to the others. His wife (never named) belongs to his life in a post, not to a project's criteria.
+- **His words for his own experience.** When he names how a stretch felt, use his term everywhere ("AI fatigue", never "burnout"), not a stronger or more clinical one.
+- **Credit the people he builds on.** A skill, technique or idea that came from someone else names them and links their own page (Matt Pocock's grill-me skill).
+- **Name the engineering ideas.** When a choice follows a known pattern (hexagonal architecture, ADRs, vertical slicing, conventional commits), name it and link its origin (the spec, the original article): the AI builder can follow it up and the novice gets a term to look up. Where it only resembles one, hedge ("in the spirit of trunk-based development").
 - **Say each thing once.** If the vision already names the endpoint (a homebrewed Gatebox), don't restate it in a different costume two lines later.
-- **Precise hardware names.** "a base model M4 Mac Mini", not "my Mac Mini at home".
+- **Precise names.** "a base model M4 Mac Mini", not "my Mac Mini at home"; works go by their full title (*The Legend of Zelda*, not "Zelda").
 - **Parentheticals with restraint.** One good aside per paragraph beats three; cut the ones that only add a detail.
 - **The hook comes first.** A one- or two-sentence italic lede before the first heading says what the post is about and why it's exciting; the personal build-up follows.
 - **Split long sentences at their seams.** Past ~35 words, a sentence becomes two, keeping his words; a sentence carrying several links always gets split.
@@ -74,6 +77,7 @@ The second reader is never addressed directly ("for the builders among you"); th
 - **Suggest screenshots.** Where a real artifact would say more than prose or a diagram (a terminal session, a chat with the agent or with Momo, a trace, a UI, a failing test), leave a placeholder that says what to capture, and list it in the PR. He takes the screenshots.
 - **Watch pet phrases.** Count repeats of signature words in a draft ("her own", "little", "actually") and keep only the ones that carry weight.
 - **No section that only hedges.** A teaser that ends in "I'm not promising anything" folds into a sentence elsewhere.
+- **No corny wind-ups.** Throat-clearing before the ending ("The factory is still growing…", "And honestly?") goes; the last section lands straight on its closing line.
 - **One or two memes, if they fit.** A meme earns its place by landing a specific beat (the irony of a mistake, a before/after) and isn't cringe; never decoration, never more than two per post. Leave a placeholder that describes the format and its text, and ask in the PR: he makes or approves the image.
 
 ---
